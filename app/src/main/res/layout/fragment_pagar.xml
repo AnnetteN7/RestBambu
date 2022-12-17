@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".PagarFragment">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="413dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="624dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/msg_cancelar"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="412dp"
+        android:layout_height="348dp"
+        android:layout_marginTop="104dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="122dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_shopping_cart" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:text="@string/msg_gracias"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="286dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/background_orden"
+        android:backgroundTint="#FFEB3B"
+        android:elevation="20dp"
+        android:outlineSpotShadowColor="@color/black"
+        android:padding="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <Button
+            android:id="@+id/btnSinpe"
+            android:layout_width="200dp"
+            android:layout_height="115dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:padding="20dp"
+
+            android:text="@string/msg_sinpe"
+            android:textColor="#FFEB3B" />
+
+        <Button
+            android:id="@+id/btnPagarRes"
+            android:layout_width="200dp"
+            android:layout_height="115dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:padding="20dp"
+            android:text="@string/msg_restaurante"
+            android:textColor="#FFEB3B" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

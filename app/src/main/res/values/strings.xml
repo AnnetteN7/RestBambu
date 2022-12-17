@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">RestBambu</string>
+    <string name="title_activity_restaurante">RestauranteActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_pagar">PAGAR</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="login">INICIAR SESIÓN</string>
+    <string name="msg_cuenta">¿No tienes una cuenta?</string>
+    <string name="msg_crear_cuenta">Crear cuenta</string>
+    <string name="msg_failure">Error de registro</string>
+    <string name="welcome">Bienvenidos Restaurante Bambú</string>
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="msg_olvido">¿Se te olvido la contraseña?</string>
+    <string name="msg_imagen">Imagen del Lugar</string>
+    <string name="msg_orden">Mi orden</string>
+    <string name="msg_comida">Comida Seleccionada</string>
+    <string name="msg_subtotal">Sub Total</string>
+    <string name="msg_iva">Impuestos IVA</string>
+    <string name="msg_total">Total</string>
+    <string name="msg_categoria">Categoria</string>
+    <string name="msg_agregar">Agregar Compra</string>
+    <string name="msg_precio">Precio Total</string>
+    <string name="msg_web">Sitio Web</string>
+    <string name="msg_correo">Email (correo@xxx.xxx)</string>
+    <string name="msg_telefono">Teléfono (9999–9999)</string>
+    <string name="msg_nombre">Nombre del Lugar</string>
+    <string name="msgGuardandoLugar">Subiendo los Archivos</string>
+    <string name="msg_transacción">Transacción Segura</string>
+    <string name="msg_transacciónR">Pagar en restaurante</string>
+    <string name="msg_realiza">Realizá su pago via SINPE Móvil al 8888-1514. El monto debe ser exacto.</string>
+    <string name="msg_ingresaC">Una vez que hayás realizado el pago ingresá tu cédula abajo.</string>
+    <string name="msg_completarO">Da click en "Completar Orden" y listo. Automáticamente buscaremos tu pago en el banco y lo asociaremos a tu orden.</string>
+    <string name="msg_completarPa">Da click en "Completar Orden" y listo. Automáticamente podrás retirar tu orden en el restaurante .</string>
+    <string name="msg_tipo">Tipo de Cédula</string>
+    <string name="msg_tipoPa">Su orden se le entregará en 35 minutos</string>
+    <string name="msg_numb">Número de Cédula</string>
+    <string name="msg_titular">Debe ser la cédula del titular de la cuenta</string>
+    <string name="btn_completarOrden">Completar orden</string>
+    <string name="msg_lugar_added">Lugar agregado…</string>
+    <string name="msg_lugar_updated">Lugar actualizado…</string>
+    <string name="msg_data">Faltan Datos!</string>
+    <string name="bt_add_lugar">Agregar Lugar</string>
+    <string name="bt_update_lugar">Actualizar Lugar</string>
+    <string name="registre">CREAR CUENTA</string>
+    <string name="user">Nombre</string>
+    <string name="confirmar_password">Confirmar Contraseña</string>
+    <string name="crear">CREAR CUENTA</string>
+    <string name="title_activity_principal">Principal</string>
+
+    <string name="msg_gracias">Gracias por su compra!</string>
+    <string name="msg_sinpe">Pagar con SINPE</string>
+    <string name="msg_restaurante">Pagar en Restaurante</string>
+    <string name="msg_cancelar">Cancelar Orden</string>
+
+    <string name="msg_ord">¿Que vas a ordenar hoy?</string>
+    <string name="msg_buscar">Buscar</string>
+    <string name="msg_categorias">Categorias</string>
+    <string name="msg_populares">Populares</string>
+    <string name="menu_ordenar">Ordenar</string>
+    <string name="menu_pagar">Pagar</string>
+    <string name="todo">TODO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="msg_producto">Nombre del producto</string>
+    <string name="msg_cantidad">Cantidad</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

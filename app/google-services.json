@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1034668799499",
+    "project_id": "restbambu-2174b",
+    "storage_bucket": "restbambu-2174b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034668799499:android:54f528b5b0526493e2790e",
+        "android_client_info": {
+          "package_name": "com.project.restbambu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034668799499-vbs4pk3jolgnl44pnhjvt9s00id1r88s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMAB01drBvPY3N11rnWziboIlyvG2zViI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034668799499-vbs4pk3jolgnl44pnhjvt9s00id1r88s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.restbambu.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_addCategoriaFragment"
+            app:destination="@id/addCategoriaFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_detalleFragment"
+            app:destination="@id/detalleFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.restbambu.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.restbambu.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/addCategoriaFragment"
+        android:name="com.example.restbambu.ui.home.addCategoriaFragment"
+        android:label="addCategoriaFragment" >
+        <action
+            android:id="@+id/action_addCategoriaFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/detalleFragment"
+        android:name="com.project.restbambu.DetalleFragment"
+        android:label="fragment_detalle"
+        tools:layout="@layout/fragment_detalle" >
+        <argument
+            android:name="categoria"
+            app:argType="com.example.procyectomovil.model.Category" />
+        <action
+            android:id="@+id/action_detalleFragment_to_ordenarFragment"
+            app:destination="@id/ordenarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ordenarFragment"
+        android:name="com.project.restbambu.OrdenarFragment"
+        android:label="fragment_ordenar"
+        tools:layout="@layout/fragment_ordenar" >
+        <action
+            android:id="@+id/action_ordenarFragment_to_detalleFragment"
+            app:destination="@id/detalleFragment" />
+        <action
+            android:id="@+id/action_ordenarFragment_to_pagarFragment"
+            app:destination="@id/pagarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pagarFragment"
+        android:name="com.project.restbambu.PagarFragment"
+        android:label="fragment_pagar"
+        tools:layout="@layout/fragment_pagar" >
+        <action
+            android:id="@+id/action_pagarFragment_to_pagarRestFragment"
+            app:destination="@id/pagarRestFragment" />
+        <action
+            android:id="@+id/action_pagarFragment_to_pagarSinpeFragment"
+            app:destination="@id/pagarSinpeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pagarRestFragment"
+        android:name="com.project.restbambu.PagarRestFragment"
+        android:label="fragment_pagar_rest"
+        tools:layout="@layout/fragment_pagar_rest" />
+    <fragment
+        android:id="@+id/pagarSinpeFragment"
+        android:name="com.project.restbambu.PagarSinpeFragment"
+        android:label="fragment_pagar_sinpe"
+        tools:layout="@layout/fragment_pagar_sinpe" />
+</navigation>
